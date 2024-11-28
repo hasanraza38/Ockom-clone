@@ -65,6 +65,28 @@ const Home = () => {
       </section>
 
       {/* section 3 */}
+
+<section className="flex justify-center items-center">
+
+<div className="m-10 p-9 bg-white bg-opacity-10 backdrop-blur-md border border-white/20 shadow-lg rounded-lg ">
+
+<div className="flex justify-center items-center gap-20">
+
+<h1 className="uppercase text-6xl font-semibold">
+The Ockom <br />
+<span className="text-red-600">
+Methodology
+</span>
+</h1>
+
+<button className="btn btn-xs bg-red-600 border-none sm:btn-sm md:btn-md lg:btn-lg">Contact</button>
+</div>
+
+</div>
+
+
+</section>
+
     </main>
   );
 };
